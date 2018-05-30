@@ -4,7 +4,7 @@ function produceDrivingRange(drivingRange) {
     if (x >= drivingRange) {
       return `within range by ${x}`
   } else {
-    return `${x} blocks out of range`
+    return `${x - drivingRange} blocks out of range`
   }
 }
 }
