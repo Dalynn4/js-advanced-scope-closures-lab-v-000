@@ -1,3 +1,5 @@
 function produceDrivingRange(drivingRange) {
-  return function
+  return function(distance){
+    
+  }
 }
